@@ -1,0 +1,1 @@
+create table project (id INT PRIMARY KEY, title TEXT, category TEXT, funding_goal TEXT)
