@@ -11,7 +11,7 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
   FROM project
   LEFT JOIN pledge
   ON project.id = pledge.project_id
-  ORDER BY project.title"
+  ORDER BY project.title;"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
@@ -19,7 +19,7 @@ def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-  "Write your SQL query Here"
+  "SELECT project.title, "
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_summed_amount
